@@ -19,7 +19,12 @@
  * @licend The above is the entire license notice for the
  * Javascript code in this page
  */
-
+ let person = "";
+ function MyFunction(){
+    person = prompt("input book name:", "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf");
+    alert("Book view: "+person);
+}
+window.onload=MyFunction;
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
@@ -72,7 +77,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf",
+    value: person,
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
