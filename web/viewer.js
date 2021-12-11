@@ -77,7 +77,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf,
+    value: "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
