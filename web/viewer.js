@@ -19,13 +19,14 @@
  * @licend The above is the entire license notice for the
  * Javascript code in this page
  */
- var person = "";
+
+/******/ (() => { // webpackBootstrap
+var person = "";
  function MyFunction(){
     person = prompt("input book name:", "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf");
     alert("Book view: "+person);
 }
 window.onload=MyFunction;
-/******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
