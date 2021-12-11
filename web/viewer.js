@@ -77,7 +77,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: '${person}',
+    value: parse('%s',person),
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
