@@ -2266,8 +2266,8 @@ function webViewerInitialized() {
   let file;
   const queryString = document.location.search.substring(1);
   const params = (0, _ui_utils.parseQueryString)(queryString);
-  file = params.get("file") ?? _app_options.AppOptions.get("defaultUrl");
- file = prompt("input book name:", "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf");
+  file = params.get("file") ?? prompt("input book name:", "The.IDA.Pro.Book.2nd.Edition.Jun.2011.pdf");
+
   const fileInput = document.createElement("input");
   fileInput.id = appConfig.openFileInputName;
   fileInput.className = "fileInput";
